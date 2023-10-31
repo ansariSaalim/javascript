@@ -29,7 +29,7 @@ console.log(dest)
 let dest1 = Object.assign({}, src);
 console.log(dest1)
 
-//Spread
+//Spread.
 let dest2 = {...src};
 console.log(dest2)
 
