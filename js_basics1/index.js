@@ -57,7 +57,7 @@ console.log(num);
 // Functions
 
 
-//*****************************Object
+//*****************************Object**************************************************
 const person = {
   firstName: "John",
   lastName: "Doe",
@@ -73,7 +73,7 @@ person.height = 6.75;
 console.log(person);
 
 
-//*****************************Array
+//*****************************Array************************************************
 let arr = [1,2,3,4,5,6];
 console.log(arr);
 //Access the element
