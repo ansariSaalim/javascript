@@ -6,8 +6,11 @@ console.log(arr);
 //length
 console.log(arr.length);
 
-//Search
+//Access 
 console.log(arr[0]);
+
+//Search 
+console.log(arr.indexOf(3));
 
 //Insert
 //Insert at the end
@@ -20,4 +23,14 @@ console.log(arr);
 arr.splice(2, 0, 'a', 'b', 'c');
 console.log(arr);
 
-
+let arrObject = [
+    {
+        name: 'Saalim',
+        course: 'B.tech'
+    },
+    {
+        name: 'Arman',
+        course: 'B.tech'
+    }
+];
+console.log(arrObject);
