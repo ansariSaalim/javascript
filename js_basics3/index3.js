@@ -12,7 +12,7 @@ console.log(arr[0]);
 //Search 
 console.log(arr.indexOf(3));
 
-//Insert
+//***********************************Insertion****************************************
 //Insert at the end
 arr.push(10)
 console.log(arr);
