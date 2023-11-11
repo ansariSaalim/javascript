@@ -39,12 +39,16 @@ let number = [100,80,70,60];
 let number2 = number;
 
 //First way
-number.length = 0;
+// number.length = 0;
 //Second way
-number.splice(0, number.length);
+// number.splice(0, number.length);
+//Third way
+while(number.length > 0){
+  number.pop();
+}
 
 
-console.log(number2);
+console.log(number);
 
 
 // *************************Array Object**************************
